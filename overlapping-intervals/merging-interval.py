@@ -36,4 +36,3 @@ def merge_overlapping_intervals(arr):
 def test_merge_overlapping_intervals(arr, expected):
     result = merge_overlapping_intervals(arr)
     assert result == expected
-
