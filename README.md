@@ -8,13 +8,25 @@ Code patterns for common interview questions.
 pyenv versions
 ```
 
-Make sure that it is running the version specified by `.python-version`.
+Make sure that it is running the version specified by `.python-version`:
+
+```
+pyenv install $(cat .python-version)
+```
+
+Create a virtual environment:
+
+```
+python -m venv myenv
+```
+
+Activate the virtual environment:
 
 ```
 source ./myenv/bin/activate
 ```
 
-and
+Install libraries:
 
 ```
 pip install -r ./requirements.txt
