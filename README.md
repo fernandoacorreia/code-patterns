@@ -35,3 +35,4 @@ pip install -r ./requirements.txt
 ## References
 
 - [LeetCode was HARD until I Learned these 15 Patterns](https://youtu.be/DjYZk8nrXVY?si=g4wqBKd4GRN-zfUT)
+- [Article](https://blog.algomaster.io/p/15-leetcode-patterns)
